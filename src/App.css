@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Replace logo image + text with BMSA logo (place BMSALogo.png into this project's public/) */
+.logo {
+  /* use the BMSA logo from the site public folder */
+  background-image: url('/BMSALogo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  /* size + layout */
+  display: inline-block;
+  width: 9rem;
+  height: 6rem;
+  padding: 0;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* hide any inline <img> that might have been used for the old logo */
+.logo img {
+  display: none !important;
+}
+
+/* keep drop-shadow hover but neutral color for new logo */
+.logo:hover {
+  filter: drop-shadow(0 0 1.5em rgba(100, 108, 255, 0.35));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 1.5em rgba(97, 218, 255, 0.25));
+}
+
+/* hide old "ocean way" / docs text if present */
+.read-the-docs {
+  display: none !important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Maritime Shipping Design System
+   Deep ocean blues, coral accents, clean professional aesthetic
+*/
+
+@layer base {
+  :root {
+    /* Ocean-inspired color palette */
+    --background: 210 25% 97%;
+    --foreground: 215 35% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 35% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 35% 15%;
+
+    /* Deep navy blue - primary brand color */
+    --primary: 215 80% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Light sky blue - secondary */
+    --secondary: 200 60% 94%;
+    --secondary-foreground: 215 80% 25%;
+
+    /* Muted ocean gray */
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Coral accent - energetic CTA color */
+    --accent: 16 85% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 25% 88%;
+    --input: 210 25% 88%;
+    --ring: 215 80% 25%;
+
+    --radius: 0.75rem;
+
+    /* Custom design tokens */
+    --ocean-deep: 215 80% 20%;
+    --ocean-mid: 200 65% 45%;
+    --ocean-light: 195 70% 85%;
+    --coral: 16 85% 55%;
+    --coral-light: 16 90% 65%;
+    --sand: 40 35% 92%;
+    --wave-gradient: linear-gradient(135deg, hsl(215 80% 25%) 0%, hsl(200 65% 45%) 100%);
+    --hero-gradient: linear-gradient(180deg, hsl(210 25% 97%) 0%, hsl(200 60% 94%) 100%);
+    --card-shadow: 0 4px 24px -4px hsl(215 80% 25% / 0.08);
+    --card-shadow-hover: 0 12px 40px -8px hsl(215 80% 25% / 0.15);
+    
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 35% 8%;
+    --foreground: 210 25% 95%;
+
+    --card: 215 30% 12%;
+    --card-foreground: 210 25% 95%;
+
+    --popover: 215 30% 12%;
+    --popover-foreground: 210 25% 95%;
+
+    --primary: 200 70% 55%;
+    --primary-foreground: 215 35% 8%;
+
+    --secondary: 215 25% 18%;
+    --secondary-foreground: 210 25% 95%;
+
+    --muted: 215 25% 18%;
+    --muted-foreground: 210 15% 60%;
+
+    --accent: 16 85% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 20%;
+    --input: 215 25% 20%;
+    --ring: 200 70% 55%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .wave-gradient {
+    background: var(--wave-gradient);
+  }
+
+  .hero-gradient {
+    background: var(--hero-gradient);
+  }
+
+  .text-gradient {
+    background: var(--wave-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .card-shadow {
+    box-shadow: var(--card-shadow);
+  }
+
+  .card-shadow-hover {
+    box-shadow: var(--card-shadow-hover);
+  }
+}
+
+/* Wave animation for decorative elements */
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(1deg);
+  }
+  75% {
+    transform: translateY(5px) rotate(-1deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-wave {
+  animation: wave 6s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animation-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+}

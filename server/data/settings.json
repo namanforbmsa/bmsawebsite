@@ -1,0 +1,26 @@
+{
+  "fleetStats": {
+    "currentFleet": 56,
+    "totalVessels": 610,
+    "totalVoyages": 1012
+  },
+  "policies": {
+    "terms": "Welcome to BMSA. These Terms and Conditions outline the rules and regulations for using our online shipping services. By accessing or using our website and shipping services, you agree to comply with and be bound by these terms. If you do not agree, please discontinue using our services immediately.\n\n*(ACCEPTANCE OF TERMS)*\nBy using our online shipping services, you agree to be legally bound by these Terms and Conditions, our Privacy Policy, and any other guidelines or rules applicable to specific services or features provided by BMSA. These terms may be updated from time to time, and it is your responsibility to review them regularly.\n\n*(SERVICES WE PROVIDE)*\nWe offer a variety of shipping-related services, including but not limited to:\n- Laytime Calculation Services\n- Charter Party Reviews\n- Hold Cleaning and Guidance\n- Voyage Operation\n- Port Captain\n- Underwater Hull Inspection and Cleaning\n\n*(USER ACCOUNT REGISTRATION)*\nTo use certain features of our online shipping services, you may be required to create an account. You agree to provide accurate and complete information during registration, keep your login credentials secure and confidential, and be responsible for all activities conducted under your account. BMSA reserves the right to suspend or terminate accounts for violations of these Terms or misuse of the service.\n\n*(TERMINATION OF SERVICES)*\nWe reserve the right to terminate or suspend your access to our online shipping services if you violate these Terms, provide false information, or misuse our services. In the event of termination, any pending shipments may be canceled, and any fees paid for unused services will be refunded as applicable.\n\n*(CHANGES TO TERMS AND SERVICES)*\nBMSA reserves the right to modify or update these Terms and Conditions at any time. Any changes will be effective upon posting on our website. Your continued use of the service after such changes constitutes your acceptance of the revised Terms.\n\n*(GOVERNING LAW)*\nThese Terms and Conditions shall be governed by and construed in accordance with the laws of India. Any disputes arising out of or related to these Terms shall be subject to the exclusive jurisdiction of the courts in Mumbai High Court, Maharashtra, India.\n\nFor questions, please contact us.",
+    "privacy": "At BMSA, we are committed to protecting the privacy and security of our users' personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you use our online shipping services. By using our services, you agree to the collection and use of information in accordance with this policy.\n\n*(PERSONAL & BUSINESS INFORMATION)*\nWhen you create an account, we may collect the following personal and business details:\n- Name of the Company\n- Name of the Concerned Person Using the Services\n- Company Email address\n- Registered Phone number for immediate contacting\n- Documents related to the services. All documents so collected will be destroyed after the service has been completed. BMSA is not a custodian of documents; requests to retrieve documents after completion will not be accommodated. Sensitive documents (e.g., CP, Fixture Note, Recap, SOF) will be secured by BMSA.",
+    "turnAround": "Turn Around Time Policy\n\nBMSA provides efficient vessel turn-around services with the following guidelines:\n\n*(STANDARD TURN AROUND TIME)*\nOur standard turn-around time is 48-72 hours depending on vessel size and service requirements.\n\n*(EXPEDITED SERVICES)*\nFor urgent requirements, we offer expedited services with additional charges.\n\n*(SERVICE INCLUSIONS)*\n- Port clearance and documentation\n- Crew coordination\n- Supply management\n- Equipment servicing\n- Repair coordination",
+    "returnRefund": "Return & Refund Policy\n\n*(REFUND CONDITIONS)*\nRefunds are processed within 7-10 business days of approval.\n\n*(CANCELLATION POLICY)*\nServices cancelled within 24 hours of scheduled date are subject to cancellation charges.\n\n*(REFUND PROCESS)*\n1. Submit cancellation request\n2. Verification by our team\n3. Processing of refund\n4. Confirmation via email",
+    "contact": "Contact Us Policy\n\n*(RESPONSE TIME)*\nWe aim to respond to all inquiries within 24 business hours.\n\n*(CONTACT CHANNELS)*\n- Email: contact@bmsagroup.net\n- Phone: +91-22-XXXX-XXXX\n- Support Portal: Available 24/7\n\n*(SERVICE HOURS)*\nOur team is available Monday to Friday, 9 AM - 6 PM IST."
+  },
+  "copyrightYear": 2029,
+  "teamMembers": [
+    {
+      "id": "1787384470763",
+      "name": "ds",
+      "role": "ds",
+      "email": "ds@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/naman-santosh-kumar/",
+      "bio": "",
+      "photo": "/uploads/team/team-1787404054908-804577582.jpg"
+    }
+  ]
+}

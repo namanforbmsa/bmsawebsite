@@ -1,0 +1,817 @@
+[
+  {
+    "id": "1",
+    "name": "Voyage Operations",
+    "slug": "voyage-operations",
+    "description": "End-to-end voyage management including routing optimization, crew coordination, real-time vessel tracking.",
+    "shortDescription": "End-to-end voyage management including routing optimization, crew coordination, real-time vessel tracking.",
+    "icon": "Ship",
+    "link": "/services/voyage-operations",
+    "subServices": [
+      {
+        "id": "vo-1",
+        "name": "Time Chartered In / Time Chartered Out",
+        "price": 50,
+        "unit": "Per Day",
+        "features": [
+          "Execution of fixture from the day of fixing till final settlement",
+          "Route planning & performance monitoring",
+          "Bunker planning (if needed)",
+          "Cargo optimization",
+          "Account management"
+        ]
+      },
+      {
+        "id": "vo-2",
+        "name": "Time Chartered In Voyage Out",
+        "price": 75,
+        "unit": "Per Day",
+        "features": [
+          "Complete voyage planning and execution",
+          "Bunker optimization",
+          "Port coordination",
+          "Freight and demurrage handling"
+        ]
+      }
+    ],
+    "termsAndConditions": [],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Expert Management",
+        "description": "Our team of experienced maritime professionals handles every aspect of your voyage, ensuring optimal performance."
+      },
+      {
+        "id": "wc-2",
+        "title": "Cost Efficiency",
+        "description": "We have past records showing saving over Million Dollars by optimizing voyages/efficiently handling the issues before it become loss."
+      },
+      {
+        "id": "wc-3",
+        "title": "Real-Time Monitoring",
+        "description": "Our team ensures 24x7 availability, so you can utilise our services for any time zone."
+      },
+      {
+        "id": "wc-4",
+        "title": "Regulatory Compliance",
+        "description": "Ensure all operations meet international maritime regulations and standards."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Initial Consultation",
+        "description": "We discuss your specific needs and goals to tailor our services to your requirements."
+      },
+      {
+        "id": "hw-2",
+        "title": "Voyage Planning",
+        "description": "Our experts develop a comprehensive plan covering every aspect of the voyage."
+      },
+      {
+        "id": "hw-3",
+        "title": "Execution and Monitoring",
+        "description": "We oversee the entire voyage, providing real-time updates and addressing any issues promptly."
+      },
+      {
+        "id": "hw-4",
+        "title": "Reporting and Analysis",
+        "description": "After completion, receive detailed reports and analysis to continuously improve operations."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Route Planning",
+        "description": "Optimized routes for fuel efficiency and timely arrivals."
+      },
+      {
+        "id": "si-2",
+        "title": "Port Coordination",
+        "description": "Seamless coordination with ports for smooth docking and cargo handling."
+      },
+      {
+        "id": "si-3",
+        "title": "Weather Routing",
+        "description": "Advanced weather forecasting to avoid delays and ensure safety."
+      },
+      {
+        "id": "si-4",
+        "title": "Fuel Management",
+        "description": "Strategies to minimize fuel consumption and costs."
+      },
+      {
+        "id": "si-5",
+        "title": "Cargo Handling",
+        "description": "Efficient loading and unloading processes to reduce turnaround time."
+      },
+      {
+        "id": "si-6",
+        "title": "Compliance Management",
+        "description": "Ensuring adherence to all maritime regulations and environmental standards."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Laytime & Demurrage",
+    "slug": "laytime-demurrage",
+    "description": "Precise calculation and documentation of laytime, demurrage, and despatch to protect your commercial interests.",
+    "shortDescription": "Precise calculation and documentation of laytime, demurrage, and despatch to protect your commercial interests.",
+    "icon": "Clock",
+    "link": "/services/laytime-demurrage",
+    "subServices": [
+      {
+        "id": "ld-1",
+        "name": "Advance Laytime Preparation",
+        "price": 100,
+        "unit": "Per Port",
+        "features": [
+          "Including Basic Laytime Preparation",
+          "Negotiation of Laytime with counter party",
+          "Settling any legal related matter with counter party"
+        ]
+      },
+      {
+        "id": "ld-2",
+        "name": "Basic Laytime",
+        "price": 20,
+        "unit": "Per Port",
+        "features": [
+          "Standard laytime calculation",
+          "Demurrage/Despatch calculation",
+          "Documentation preparation"
+        ]
+      }
+    ],
+    "termsAndConditions": [
+      "The service charge as mentioned is basis per port basis per laytime, irrespective of the fact it's reversible or non-reversible.",
+      "BMSA will prepare laytime basis the documents (SOF, Recap, NOR BL etc.) uploaded.",
+      "BMSA will not co-ordinate with any 3rd party unless agreed upon.",
+      "BMSA will calculate the laytime purely basis the CP/Recap/Fixture Note provided.",
+      "This service is only limited to calculation & presentation and does not include any support for any type of legal assistance.",
+      "Any error in documents or missing documents, laytime charges will be paid two times."
+    ],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Expertise",
+        "description": "Our team of experienced professionals specializes in precise laytime calculations."
+      },
+      {
+        "id": "wc-2",
+        "title": "Accuracy",
+        "description": "Eliminate errors and ensure accurate calculations to avoid unnecessary demurrage charges."
+      },
+      {
+        "id": "wc-3",
+        "title": "Efficiency",
+        "description": "Streamline your operations and reduce turnaround time with our efficient processes."
+      },
+      {
+        "id": "wc-4",
+        "title": "Compliance",
+        "description": "Stay compliant with industry standards and regulations with our up-to-date knowledge."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Data Collection",
+        "description": "We gather all relevant data, including charter parties, statements of facts, and time logs."
+      },
+      {
+        "id": "hw-2",
+        "title": "Analysis",
+        "description": "Our experts analyze the data to identify any discrepancies or issues."
+      },
+      {
+        "id": "hw-3",
+        "title": "Calculation",
+        "description": "We perform precise laytime calculations based on the terms of the charter party."
+      },
+      {
+        "id": "hw-4",
+        "title": "Reporting",
+        "description": "Receive detailed laytime statements and reports for your records."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Laytime Calculation",
+        "description": "Calculation of laytime, including identifying when laytime starts and ends based on the charter party terms."
+      },
+      {
+        "id": "si-2",
+        "title": "Demurrage & Despatch Monitoring",
+        "description": "Tracking delays and calculating demurrage or despatch."
+      },
+      {
+        "id": "si-3",
+        "title": "Laytime Statements Preparation",
+        "description": "Preparation of laytime statements detailing the amount of time used, deductions and any time that should be counted against the total allowed laytime."
+      },
+      {
+        "id": "si-4",
+        "title": "Port and Berth Coordination",
+        "description": "Coordinating with port authorities and terminals to optimize the ship's stay in port and ensure that laytime is used efficiently."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Charter Party Review",
+    "slug": "charter-party-review",
+    "description": "Charter party agreements are the backbone of maritime operations. Our professional charter party review services help you navigate the complexities, ensuring compliance and minimizing risks.",
+    "shortDescription": "Expert analysis of charter party agreements ensuring favorable terms and risk mitigation strategies.",
+    "icon": "FileCheck",
+    "link": "/services/charter-party-review",
+    "subServices": [
+      {
+        "id": "cpr-1",
+        "name": "Standard Review",
+        "price": 150,
+        "unit": "Per Agreement",
+        "features": [
+          "Comprehensive review of all terms",
+          "Risk assessment report",
+          "Recommendations for improvements"
+        ]
+      },
+      {
+        "id": "cpr-2",
+        "name": "Premium Review",
+        "price": 300,
+        "unit": "Per Agreement",
+        "features": [
+          "Everything in Standard Review",
+          "Negotiation support",
+          "Legal compliance check",
+          "Follow-up consultation"
+        ]
+      }
+    ],
+    "termsAndConditions": [],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Expert Legal Insight",
+        "description": "Our team of maritime law experts meticulously reviews your agreements to ensure accuracy and compliance."
+      },
+      {
+        "id": "wc-2",
+        "title": "Risk Mitigation",
+        "description": "Identify and address potential issues before they become costly problems."
+      },
+      {
+        "id": "wc-3",
+        "title": "Customized Solutions",
+        "description": "Tailored reviews to meet your specific needs and operational requirements."
+      },
+      {
+        "id": "wc-4",
+        "title": "Timely Service",
+        "description": "Fast turnaround times to keep your operations on schedule."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Initial Consultation",
+        "description": "Discuss your specific requirements and provide the charter party agreements for review."
+      },
+      {
+        "id": "hw-2",
+        "title": "Detailed Analysis",
+        "description": "Our experts conduct a thorough review and provide a detailed report of findings."
+      },
+      {
+        "id": "hw-3",
+        "title": "Recommendations",
+        "description": "Receive actionable insights and recommendations to optimize your agreements."
+      },
+      {
+        "id": "hw-4",
+        "title": "Follow-Up Support",
+        "description": "Ongoing support to address any questions or further modifications needed."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Comprehensive Review",
+        "description": "Detailed examination of all charter party terms and clauses."
+      },
+      {
+        "id": "si-2",
+        "title": "Risk Assessment",
+        "description": "Identification of potential legal and operational risks."
+      },
+      {
+        "id": "si-3",
+        "title": "Clause Optimization",
+        "description": "Recommendations for clause modifications to better protect your interests."
+      },
+      {
+        "id": "si-4",
+        "title": "Compliance Check",
+        "description": "Ensure adherence to international maritime laws and regulations."
+      },
+      {
+        "id": "si-5",
+        "title": "Contract Negotiation Support",
+        "description": "Assistance in negotiating terms to achieve the best possible outcome."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Hold Cleaning & Guidance",
+    "slug": "hold-cleaning-guidance",
+    "description": "Our professional hold cleaning services guarantee your cargo holds are spotless and ready for the next shipment.",
+    "shortDescription": "Professional guidance on cargo hold preparation meeting the highest industry cleanliness standards.",
+    "icon": "Warehouse",
+    "link": "/services/hold-cleaning-guidance",
+    "subServices": [
+      {
+        "id": "hcg-1",
+        "name": "Basic Cleaning Guidance",
+        "price": 200,
+        "unit": "Per Hold",
+        "features": [
+          "Hold inspection assessment",
+          "Cleaning procedure guidance",
+          "Documentation support"
+        ]
+      },
+      {
+        "id": "hcg-2",
+        "name": "Full Service Package",
+        "price": 500,
+        "unit": "Per Hold",
+        "features": [
+          "Complete cleaning supervision",
+          "Quality inspection",
+          "Certification support",
+          "Post-cleaning report"
+        ]
+      }
+    ],
+    "termsAndConditions": [],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Thorough Cleaning",
+        "description": "We use advanced techniques and equipment to ensure your cargo holds are thoroughly cleaned and free of any residue."
+      },
+      {
+        "id": "wc-2",
+        "title": "Regulatory Compliance",
+        "description": "Stay compliant with international shipping standards and regulations."
+      },
+      {
+        "id": "wc-3",
+        "title": "Experienced Team",
+        "description": "Our team of skilled professionals has extensive experience in hold cleaning for various types of cargo."
+      },
+      {
+        "id": "wc-4",
+        "title": "Quick Turnaround",
+        "description": "Minimize downtime with our efficient and prompt cleaning services."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Inspection",
+        "description": "We start with a detailed inspection to assess the condition of your cargo holds."
+      },
+      {
+        "id": "hw-2",
+        "title": "Customized Plan",
+        "description": "Based on the inspection, we develop a customized cleaning plan tailored to your specific needs."
+      },
+      {
+        "id": "hw-3",
+        "title": "Execution",
+        "description": "Our team performs the cleaning using advanced methods and equipment."
+      },
+      {
+        "id": "hw-4",
+        "title": "Quality Check",
+        "description": "Final inspection to ensure the holds meet the required cleanliness standards."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Hold Cleaning & Washing",
+        "description": "Complete cleaning and washing services for all cargo hold types."
+      },
+      {
+        "id": "si-2",
+        "title": "Under Water Cleaning & Repairing",
+        "description": "Specialized underwater cleaning and repair services."
+      },
+      {
+        "id": "si-3",
+        "title": "Propeller Super Polishing",
+        "description": "Professional propeller polishing for optimal performance."
+      },
+      {
+        "id": "si-4",
+        "title": "Hold Inspection",
+        "description": "Thorough inspection services to assess hold condition."
+      },
+      {
+        "id": "si-5",
+        "title": "Tanker Cleaning",
+        "description": "Specialized cleaning services for tanker vessels."
+      },
+      {
+        "id": "si-6",
+        "title": "Airtight Silos Treatment",
+        "description": "Treatment services for airtight silo systems."
+      },
+      {
+        "id": "si-7",
+        "title": "Cargo Fumigation",
+        "description": "Professional fumigation services for cargo holds."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Ship Brokerage",
+    "slug": "ship-brokerage",
+    "description": "Connecting ship owners with charterers through our extensive global network of maritime contacts.",
+    "shortDescription": "Connecting ship owners with charterers through our extensive global network of maritime contacts.",
+    "icon": "Handshake",
+    "link": "/services/ship-brokerage",
+    "subServices": [
+      {
+        "id": "sb-1",
+        "name": "Chartering Services",
+        "price": 0,
+        "unit": "Commission Based",
+        "features": [
+          "Market analysis and vessel matching",
+          "Negotiation support",
+          "Contract preparation assistance",
+          "Global network access"
+        ]
+      },
+      {
+        "id": "sb-2",
+        "name": "Sale & Purchase",
+        "price": 0,
+        "unit": "Commission Based",
+        "features": [
+          "Vessel valuation",
+          "Buyer/Seller matching",
+          "Due diligence support",
+          "Transaction coordination"
+        ]
+      }
+    ],
+    "termsAndConditions": [],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Global Network",
+        "description": "Access to an extensive network of ship owners, charterers, and maritime professionals worldwide."
+      },
+      {
+        "id": "wc-2",
+        "title": "Market Expertise",
+        "description": "Deep understanding of maritime markets and current trends to get you the best deals."
+      },
+      {
+        "id": "wc-3",
+        "title": "Personalized Service",
+        "description": "Tailored brokerage services to meet your specific requirements and goals."
+      },
+      {
+        "id": "wc-4",
+        "title": "Transparent Process",
+        "description": "Clear communication and transparent dealings throughout the brokerage process."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Requirement Analysis",
+        "description": "We understand your specific needs, whether chartering or buying/selling vessels."
+      },
+      {
+        "id": "hw-2",
+        "title": "Market Search",
+        "description": "Leverage our network to find the best matching opportunities."
+      },
+      {
+        "id": "hw-3",
+        "title": "Negotiation",
+        "description": "Expert negotiation to secure favorable terms for you."
+      },
+      {
+        "id": "hw-4",
+        "title": "Deal Closure",
+        "description": "Complete support through contract finalization and handover."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Time Charter",
+        "description": "Arranging time charter agreements between owners and charterers."
+      },
+      {
+        "id": "si-2",
+        "title": "Voyage Charter",
+        "description": "Facilitating voyage charter contracts for specific cargo movements."
+      },
+      {
+        "id": "si-3",
+        "title": "Sale & Purchase",
+        "description": "Brokering vessel sales and purchases with full transaction support."
+      },
+      {
+        "id": "si-4",
+        "title": "Newbuilding",
+        "description": "Assistance with newbuilding contracts and shipyard negotiations."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Rice Detention & Calculation",
+    "slug": "rice-detention-calculation",
+    "description": "Specialist rice detention assessment and precise cargo calculation services for accurate grain handling.",
+    "shortDescription": "Specialist rice detention assessment and precise cargo calculation services for accurate grain handling.",
+    "icon": "Calculator",
+    "link": "/services/rice-detention-calculation",
+    "subServices": [
+      {
+        "id": "rdc-1",
+        "name": "Detention Assessment",
+        "price": 150,
+        "unit": "Per Shipment",
+        "features": [
+          "Cargo condition assessment",
+          "Detention calculation",
+          "Documentation support",
+          "Expert recommendations"
+        ]
+      },
+      {
+        "id": "rdc-2",
+        "name": "Full Calculation Package",
+        "price": 300,
+        "unit": "Per Shipment",
+        "features": [
+          "Complete cargo calculations",
+          "Detention assessment",
+          "Quality inspection coordination",
+          "Dispute resolution support"
+        ]
+      }
+    ],
+    "termsAndConditions": [],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Specialized Expertise",
+        "description": "Deep knowledge of rice cargo handling and detention assessment procedures."
+      },
+      {
+        "id": "wc-2",
+        "title": "Accurate Calculations",
+        "description": "Precise cargo calculations to ensure fair settlements and minimize disputes."
+      },
+      {
+        "id": "wc-3",
+        "title": "Industry Experience",
+        "description": "Years of experience handling rice detention cases across major trading routes."
+      },
+      {
+        "id": "wc-4",
+        "title": "Documentation Support",
+        "description": "Comprehensive documentation to support your claims and calculations."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Initial Assessment",
+        "description": "Review of cargo documentation and initial condition assessment."
+      },
+      {
+        "id": "hw-2",
+        "title": "On-Site Inspection",
+        "description": "Physical inspection of cargo when required for accurate assessment."
+      },
+      {
+        "id": "hw-3",
+        "title": "Calculation",
+        "description": "Detailed calculations based on industry standards and contract terms."
+      },
+      {
+        "id": "hw-4",
+        "title": "Reporting",
+        "description": "Comprehensive report with findings and recommendations."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Cargo Weight Calculation",
+        "description": "Accurate weight calculations using draft surveys and other methods."
+      },
+      {
+        "id": "si-2",
+        "title": "Quality Assessment",
+        "description": "Assessment of cargo quality and any deterioration."
+      },
+      {
+        "id": "si-3",
+        "title": "Detention Claims",
+        "description": "Preparation and support for detention claim submissions."
+      },
+      {
+        "id": "si-4",
+        "title": "Dispute Resolution",
+        "description": "Expert support in resolving cargo-related disputes."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Portcaptain",
+    "slug": "portcaptain",
+    "description": "Professional vessel attendance, crew changes, supplies coordination, and ship-shore liaison services.",
+    "shortDescription": "Professional vessel attendance, crew changes, supplies coordination, and ship-shore liaison services.",
+    "icon": "Truck",
+    "link": "/services/portcaptain",
+    "subServices": [
+      {
+        "id": "pc-1",
+        "name": "Vessel Attendance",
+        "price": 250,
+        "unit": "Per Call",
+        "features": [
+          "Port authority coordination",
+          "Documentation handling",
+          "Crew welfare support",
+          "24/7 availability"
+        ]
+      },
+      {
+        "id": "pc-2",
+        "name": "Full Port Captain Services",
+        "price": 500,
+        "unit": "Per Call",
+        "features": [
+          "Complete vessel attendance",
+          "Crew changes coordination",
+          "Supplies arrangement",
+          "Emergency response support",
+          "Bunker coordination"
+        ]
+      }
+    ],
+    "termsAndConditions": [],
+    "whyChoose": [
+      {
+        "id": "wc-1",
+        "title": "Local Expertise",
+        "description": "Deep knowledge of local port regulations, customs, and procedures."
+      },
+      {
+        "id": "wc-2",
+        "title": "24/7 Availability",
+        "description": "Round-the-clock support for all your vessel needs in port."
+      },
+      {
+        "id": "wc-3",
+        "title": "Comprehensive Services",
+        "description": "One-stop solution for all port captain requirements."
+      },
+      {
+        "id": "wc-4",
+        "title": "Experienced Team",
+        "description": "Skilled professionals with extensive maritime experience."
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "hw-1",
+        "title": "Pre-Arrival Planning",
+        "description": "Coordinate all requirements before vessel arrival at port."
+      },
+      {
+        "id": "hw-2",
+        "title": "Vessel Attendance",
+        "description": "Meet the vessel and handle all port formalities."
+      },
+      {
+        "id": "hw-3",
+        "title": "Operations Support",
+        "description": "Continuous support throughout the vessel's port stay."
+      },
+      {
+        "id": "hw-4",
+        "title": "Departure Coordination",
+        "description": "Ensure smooth departure with all clearances completed."
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "si-1",
+        "title": "Port Authority Liaison",
+        "description": "Coordination with port authorities for all vessel requirements."
+      },
+      {
+        "id": "si-2",
+        "title": "Crew Changes",
+        "description": "Arrangement and coordination of crew sign-on and sign-off."
+      },
+      {
+        "id": "si-3",
+        "title": "Supplies Coordination",
+        "description": "Arrangement of provisions, stores, and spare parts."
+      },
+      {
+        "id": "si-4",
+        "title": "Documentation",
+        "description": "Handling of all port documentation and clearances."
+      },
+      {
+        "id": "si-5",
+        "title": "Emergency Response",
+        "description": "24/7 support for any emergency situations."
+      }
+    ]
+  },
+  {
+    "id": "1768388423844",
+    "name": "Web dev",
+    "slug": "web-dev",
+    "description": "make web pages",
+    "shortDescription": "make webpages",
+    "icon": "Route",
+    "link": "/services/web-dev",
+    "subServices": [
+      {
+        "id": "1768388450268",
+        "name": "front end ",
+        "price": 100,
+        "unit": "Per Service",
+        "features": [
+          "webdev",
+          "dss",
+          "adsas",
+          "ads",
+          "dasd"
+        ]
+      },
+      {
+        "id": "1768388458091",
+        "name": "backend",
+        "price": 2332,
+        "unit": "Per Service",
+        "features": [
+          "dsds",
+          "dsdsd",
+          "dsdsd",
+          "dsdsd"
+        ]
+      }
+    ],
+    "termsAndConditions": [
+      "only one iteration",
+      "100$ pm"
+    ],
+    "whyChoose": [
+      {
+        "id": "1768388497700",
+        "title": "cost",
+        "description": "low"
+      }
+    ],
+    "howItWorks": [
+      {
+        "id": "1768388502427",
+        "title": "mony",
+        "description": "dsds"
+      }
+    ],
+    "servicesInclude": [
+      {
+        "id": "1768388505363",
+        "title": "asdasdas",
+        "description": "adsdads"
+      }
+    ]
+  }
+]
